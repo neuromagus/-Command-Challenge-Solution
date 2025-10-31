@@ -18,7 +18,7 @@
 
 [![](https://cmdchallenge.com/img/emojis/1F578.png)]()
 #### Level 5 : Print the last 5 lines of "access.log".
-> `cat access.log | tail -5`
+> `tail -n 5 access.log`
 
 [![](https://cmdchallenge.com/img/emojis/1F433.png)]()
 #### Level 6 : Create an empty file named take-the-command-challenge in the current working directory.
