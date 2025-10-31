@@ -57,7 +57,7 @@ Hint: There are files and directories that start with a dot ".", "rm -rf *" won'
 
 [![](https://cmdchallenge.com/img/emojis/1F41E.png)]()
 #### Level 14 : Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".
-> `ls | grep -lR 500`
+> `grep -l 500`
 
 [![](https://cmdchallenge.com/img/emojis/1F997.png)]()
 #### Level 15 : Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
